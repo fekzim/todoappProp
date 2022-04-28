@@ -1,0 +1,13 @@
+#addButton{
+    background-color: greenyellow;
+    padding: 5px;
+    border-style: none;
+    border-radius:0.5rem;
+}
+
+#textInput{
+    border-radius: 0.5rem;
+    border-style: none;
+    padding: 5px ;
+    margin-right: 3px;
+}
