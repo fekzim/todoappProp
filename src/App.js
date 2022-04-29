@@ -51,15 +51,14 @@ function enviarInfo(n){
     <div className="App">
      <h1> Todo List </h1>
      <Input clicar={enviarInfo} todoAdd={addItem}></Input>
-     <ul>
+     {/* <ul>
       {items.map((item) =>{
         return(
           <li key={item.id}>{item.value}<button onClick={()=> deleteItem(item.id)}>X</button></li>
         )
       } )}
-     </ul>
-
-     <List lista={[items]}></List>
+     </ul> */}
+     <List lista={items} remover={deleteItem}></List>
     </div>
   );
 }
