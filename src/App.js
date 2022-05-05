@@ -4,9 +4,6 @@ import Input from './components/Input';
 import List from './components/List';
 
 
-
-
-
 function App() {
 //State
 const [newItem, setNewItem] = useState("");
